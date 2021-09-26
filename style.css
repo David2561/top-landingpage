@@ -5,54 +5,140 @@ body{
     justify-content: space-around;
     min-height: 100vh;
 }
+
+/*first section*/
 .top{
     background-color: #1f2937;
     min-height: 50vh;
     color: #f9faf8;
     display: flex;
     flex-direction: column;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 .header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 10vh;
+    align-items: center;
+}
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    
 }
 ul{
     list-style: none;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    gap:5vw;
 }
 a{
-    text-decoration: none;
-    color:#f9faf8;
-}
 
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
 .title{
     display: flex;
     flex-direction: row;
-    height: 40vh;
+    height: 50vh;
     justify-content: center;
     align-items: center;
-    padding: 64px;
+    padding: 64px 0px;
+}
+.text,.image{
+    display: flex;
+    height: 50vh;
+    width: 50vw;
+}
+.text{
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    gap:3vh;
+}
+.upper-text{
+    font-size: 48px;
+    font-weight: 900;
+    color:#f9faf8;
+}
+.sub-text{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+button{
+    color:#f9faf8;
+    
+    background-color: #3882f6;
+    width: 10vw;
+    border: none;
+    border-radius: 10%;
+    height: 6vh;
+}
+.image{
+    background-color: #999;
+    justify-content: center;
+    align-items: center;
 }
 
 
+/*second section*/
 .information{
-    background-color:lightsalmon;
-    min-height: 20vh;
+    background-color:#f9faf8;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 5vw;
+    gap:2vh;
+    align-items: center;
+}
+.info-title{
+    font-size: 36px;
+    font-weight: 900;
+    color:#1f2937;
 }
 
+.info-card{
+    display: flex;
+    flex-direction: column;
+    gap:2vh;
+    height: auto;
+    width: 200px;
+}
+.card-image{
+    height: 200px;
+    width: 200px;
+    border: solid 3px #3882f6;
+    border-radius: 10%;
+    align-self: center;
+    
+    
+}
+.card-text{
+    text-align: center;
+    
+}
+
+/*third section*/
 .quote{
     background-color: lightsteelblue;
     min-height: 20vh;
 }
 
+
+/*fourth section*/
 .sign-up{
     background-color:palevioletred;
     min-height: 20vh;
 }
 
+
+/*fifth section*/
 .bottom{
     background-color: rebeccapurple;
     min-height: 20vh;
