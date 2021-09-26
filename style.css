@@ -48,6 +48,7 @@ a{
     justify-content: center;
     align-items: center;
     padding: 64px 0px;
+    gap: 64px;
 }
 .text,.image{
     display: flex;
