@@ -4,13 +4,17 @@ body{
     flex-direction: column;
     justify-content: space-around;
     min-height: 100vh;
+    --clearcontrast:#e0f8d0;
+    --contrast:#88c070;
+    --background-dark:#081820;
+    --background-light:#346856;
 }
 
 /*first section*/
 .top{
-    background-color: #1f2937;
+    background-color: var(--background-dark);
     min-height: 50vh;
-    color: #f9faf8;
+    color: var(--clearcontrast);
     display: flex;
     flex-direction: column;
     padding-left: 10vw;
@@ -25,7 +29,7 @@ body{
 }
 .logo{
     font-size: 24px;
-    color: #f9faf8;
+    color: var(--clearcontrast);
     
 }
 ul{
@@ -38,7 +42,7 @@ ul{
 a{
 
     text-decoration: none;
-    color: #e5e7eb;
+    color: var(--contrast);
     font-size: 18px;
 }
 .title{
@@ -64,23 +68,23 @@ a{
 .upper-text{
     font-size: 48px;
     font-weight: 900;
-    color:#f9faf8;
+    color:var(--clearcontrast);
 }
 .sub-text{
-    color: #e5e7eb;
+    color: var(--contrast);
     font-size: 18px;
 }
 button{
-    color:#f9faf8;
+    color:var(--clearcontrast);
     
-    background-color: #3882f6;
+    background-color: var(--background-light);
     width: 10vw;
     border: none;
     border-radius: 10%;
     height: 6vh;
 }
 .image{
-    background-color: #999;
+    background-color: var(--background-light);
     justify-content: center;
     align-items: center;
 }
@@ -88,7 +92,7 @@ button{
 
 /*second section*/
 .information{
-    background-color:#f9faf8;
+    background-color:var(--clearcontrast);
     min-height: 50vh;
     display: flex;
     flex-direction: column;
@@ -101,7 +105,7 @@ button{
 .info-title{
     font-size: 36px;
     font-weight: 900;
-    color:#1f2937;
+    color:var(--background-dark);
 }
 
 .info-card{
@@ -114,7 +118,7 @@ button{
 .card-image{
     height: 200px;
     width: 200px;
-    border: solid 3px #3882f6;
+    border: solid 3px var(--background-light);
     border-radius: 10%;
     align-self: center;
     
@@ -127,7 +131,7 @@ button{
 
 /*third section*/
 .quote{
-    background-color: #e5e7e6;
+    background-color: var(--contrast);
     min-height: 50vh;
     display: flex;
     flex-direction: column;
@@ -138,12 +142,13 @@ button{
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
-    color: #1f2937;
+    color: var(--background-dark);
 }
 .quote-author{
     align-self: flex-end;
     font-weight: bold;
     font-size: 16px;
+    color:var(--background-dark);
 }
 
 /*fourth section*/
@@ -153,9 +158,10 @@ button{
     align-content: center;
     justify-content: center;
     padding: 64px 0px 64px 0px;
+    background-color: var(--clearcontrast);
 }
 .call-card{
-    background-color: #3882f6;
+    background-color: var(--background-light);
     border-radius: 2%;
     padding: 32px;
     display: flex;
@@ -167,23 +173,23 @@ button{
 }
 .call-uppertext{
     font-size: 32px;
-    color:#f9faf8;
+    color:var(--clearcontrast);
     margin-top:5vh;   
 
 }
 .call-subtext{
     font-size: 24px;
-    color:#e5e7eb;
+    color:var(--contrast);
 }
 
 .call-button{
-    border: solid 3px white;
+    border: solid 3px var(--clearcontrast);
     border-radius: 5%;
     align-self: center;
 }
 /*fifth section*/
 .bottom{
-    background-color: #1f2937;
+    background-color: var(--background-dark);
     display: flex;
     justify-content: center;
     align-items: center;
