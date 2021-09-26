@@ -30,7 +30,8 @@ body{
 .logo{
     font-size: 24px;
     color: var(--clearcontrast);
-    
+    width: 4vw;
+    height:auto;
 }
 ul{
     list-style: none;
