@@ -126,20 +126,70 @@ button{
 
 /*third section*/
 .quote{
-    background-color: lightsteelblue;
-    min-height: 20vh;
+    background-color: #e5e7e6;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    padding:200px 200px 0px 200px;
+    gap:10vh;
 }
-
+.quote-text{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+.quote-author{
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 16px;
+}
 
 /*fourth section*/
 .sign-up{
-    background-color:palevioletred;
-    min-height: 20vh;
+    min-height: 30vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 64px 0px 64px 0px;
+}
+.call-card{
+    background-color: #3882f6;
+    border-radius: 2%;
+    padding: 32px;
+    display: flex;
+    gap:150px;
+    flex-direction: row;
+    align-content: center;
+
+
+}
+.call-uppertext{
+    font-size: 32px;
+    color:#f9faf8;
+    margin-top:5vh;   
+
+}
+.call-subtext{
+    font-size: 24px;
+    color:#e5e7eb;
 }
 
-
+.call-button{
+    border: solid 3px white;
+    border-radius: 5%;
+    align-self: center;
+}
 /*fifth section*/
 .bottom{
-    background-color: rebeccapurple;
-    min-height: 20vh;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5vh;
+    min-height: 10vh;
+}
+.footer-text{
+    color:#e5e7e6;
+    font-size: 24px;
 }
