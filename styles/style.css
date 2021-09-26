@@ -89,7 +89,10 @@ button{
     justify-content: center;
     align-items: center;
 }
-
+#portal-image{
+    width:40vw;
+    height:auto;
+}
 
 /*second section*/
 .information{
